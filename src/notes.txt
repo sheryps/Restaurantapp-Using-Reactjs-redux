@@ -1,0 +1,29 @@
+                            RESTAURENT LISTING App
+
+App Using Apis
+   Create a project - npx create-react-app
+   Install react bootstrap - npm i react-bootstrap bootstrap
+   Select template from bootswatch    
+   create components - heaser and footer
+   create new component - Restlist (compplete array of data)
+   Create a component - Displaying array of data - Restcard(Displaying array of data as a card format)
+   Redirection - View a restaurent 
+   Create a component - Viewrest of the details
+   Install react router dom - npm install --save react-router-dom     
+   import into app.js    ---- import { BrowserRouter as Router, Routes, Route } from "react-router-dom";   
+   Route - for setup path for a component
+   Routes - for holding all Route paths
+   Router - holding routes
+   useParams - React Hook - Returns an object of key/value pairs of the dynamic params from the current URL that were matched by the route path.
+   Create a component - Oprest - displaying the opening time
+   Create a component - Reviews - displaying the reviews
+
+   REDUX - To manage state,inorder to avoid props drilling
+   1.Install Redux library - npm i redux react-redux redux-thunk
+   2.Create s store file - src/store.js(to hold updated states)
+   3.create action - src/actions/restlistAction.js(logic fro fetching api data)
+      1.To fetch data here we use axios - npm i axios
+   4.create constants folder - src/constants/restconstants   
+   5.create reducer folder - src/reducers/restReducers
+
+           
